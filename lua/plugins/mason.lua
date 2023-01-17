@@ -65,7 +65,6 @@ return {
         "flake8",
         "black",
         "isort",
-        "sumneko_lua",
       },
     },
   },
