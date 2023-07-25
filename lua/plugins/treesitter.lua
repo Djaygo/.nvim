@@ -9,6 +9,7 @@ return {
         "html",
         "javascript",
         "json",
+        "toml",
         "lua",
         "markdown",
         "markdown_inline",
