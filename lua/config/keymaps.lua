@@ -95,3 +95,5 @@ vim.api.nvim_set_keymap(
   [[ <Cmd>lua require('refactoring').refactor('Inline Variable')<CR>]],
   { noremap = true, silent = true, expr = false }
 )
+-- Attempt to open files from within nvim
+-- vim.keymap.nnoremap({ "gx", [[:execute '!open ' . shellescape(expand('<cfile>'), 1)<CR>]] })
