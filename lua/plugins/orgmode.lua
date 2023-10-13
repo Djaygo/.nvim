@@ -1,4 +1,4 @@
 return {
 
-  'nvim-orgmode/orgmode'
+  "nvim-orgmode/orgmode",
 }
