@@ -1,11 +1,10 @@
 return {
   {
-    "jose-elias-alvarez/null-ls.nvim",
+    "nvimtools/none-ls.nvim",
     opts = function(_, opts)
       local nls = require("null-ls")
       local extra_sources = {
         nls.builtins.formatting.fish_indent,
-        nls.builtins.formatting.shfmtq,
         nls.builtins.diagnostics.fish,
         nls.builtins.code_actions.shellcheck,
         nls.builtins.diagnostics.ruff,
