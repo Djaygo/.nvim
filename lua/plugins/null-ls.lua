@@ -10,7 +10,6 @@ return {
         nls.builtins.diagnostics.ruff,
         nls.builtins.diagnostics.zsh,
         nls.builtins.formatting.beautysh,
-        nls.builtins.formatting.black,
         nls.builtins.formatting.prettierd,
         nls.builtins.formatting.ruff,
         nls.builtins.formatting.stylua,
