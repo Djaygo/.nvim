@@ -22,6 +22,7 @@ return {
         "regex",
         "vim",
         "yaml",
+        "rust",
       },
     },
     incremental_selection = {
